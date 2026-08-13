@@ -136,20 +136,20 @@ let pdvsJson = [
         name: 'PDV BARRACA',
         descripion:'Barraca',
         img: 'imagens/1.jpg',
-        link: 'http://192.168.60.34:9898/normal.html'
+        link: 'http://192.168.60.33:9898/normal.html'
     },
     
     {
         name: 'PDV 01',
         descripion:'ELETRO',
         img: 'imagens//ELETRO_MATEUS.png',
-        link: 'http://192.168.60.71:9898/normal.html'
+        link: 'http://192.168.60.195:9898/normal.html'
     },
     {
         name: 'PDV 02',
         descripion:'ELETRO',
         img: 'imagens/ELETRO_MATEUS.png',
-        link: 'http://192.168.60.145:9898/normal.html'
+        link: 'http://192.168.60.78:9898/normal.html'
     },
      {
         name: 'PDV 03 - Extra',
@@ -161,56 +161,56 @@ let pdvsJson = [
         name: 'PDV 01',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.178:9898/normal.html'
+        link: 'http://192.168.60.191:9898/normal.html'
     },
     {
         name: 'PDV 02',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.222:9898/normal.html'
+        link: 'http://192.168.60.171:9898/normal.html'
     },
     {
         name: 'PDV 03',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.52:9898/normal.html'
+        link: 'http://192.168.60.183:9898/normal.html'
     },
     {
         name: 'PDV 04',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.108:9898/normal.html'
+        link: 'http://192.168.60.194:9898/normal.html'
     },
     {
         name: 'PDV 05',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.141:9898/normal.html'
+        link: 'http://192.168.60.60:9898/normal.html'
     },
     {
         name: 'PDV 06',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.171:9898/normal.html'
+        link: 'http://192.168.60.222:9898/normal.html'
     },
     {
         name: 'PDV 07',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.183:9898/normal.html'
+        link: 'http://192.168.60.52:9898/normal.html'
     },
     {
         name: 'PDV 08',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.194:9898/normal.html'
+        link: 'http://192.168.60.108:9898/normal.html'
     },
     
     {
         name: 'PDV 09',
         descripion:'A La Carte',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.221:9898/normal.html'
+        link: 'http://192.168.60.224:9898/normal.html'
     },
     
     {
