@@ -210,14 +210,14 @@ let pdvsJson = [
         name: 'PDV 09',
         descripion:'A La Carte',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.224:9898/normal.html'
+        link: 'http://192.168.60.34:9898/normal.html'
     },
     
     {
         name: 'PDV 10',
         descripion:'A La Carte',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.181:9898/normal.html'
+        link: 'http://192.168.60.60:9898/normal.html'
     },
     {
         name: 'PDV - CAFÉ',
