@@ -27,7 +27,7 @@ let pdvsJson = [
         name: 'PDV 5',
         descripion:'Super Drive',
         img: 'imagens/1.jpg',
-        link: 'http://192.168.60.165:9898/normal.html'
+        link: 'http://192.168.60.125:9898/normal.html'
     },
     {
         name: 'PDV 6',
