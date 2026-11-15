@@ -60,7 +60,11 @@ main {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.536);
 }
-
+.painel-colunas {
+  display: flex;
+  gap: 20px; /* Espaço entre as colunas */
+  padding: 20px;
+}
 .pdv-area {
     width: 100%;
     display: flex;
