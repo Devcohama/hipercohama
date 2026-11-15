@@ -227,60 +227,63 @@ let pdvsJson = [
     
     
      {
-        name: 'PDV 01 - 301',
+        name: 'PDV 15 - 301',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.160:9898/normal.html'
     },
             
     {
-        name: 'PDV 02 - 416',
+        name: 'PDV 14 - 416',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.70:9898/normal.html'
     },
     {
-        name: 'PDV 03 - 397',
+        name: 'PDV 13 - 397',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.20:9898/normal.html'
     },
     {
-        name: 'PDV 04 - 404',
+        name: 'PDV 12 - 404',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.45:9898/normal.html'
     },
     {
-        name: 'PDV 05 - 315',
+        name: 'PDV 11 - 315',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.44:9898/normal.html'
     },
+ 
     {
-        name: 'PDV 06 - 378',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.29:9898/normal.html'
-    },
-    {
-        name: 'PDV 07 - 319',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.217:9898/normal.html'
-    },
-    {
-        name: 'PDV 08 - 427',
+        name: 'PDV 10A - 427',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.79:9898/normal.html'
     },
     {
-        name: 'PDV 09 - 390',
+        name: 'PDV 10B - 378',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.29:9898/normal.html'
+    },
+    {
+        name: 'PDV 09A - 390',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.76:9898/normal.html'
     },
+    {
+        name: 'PDV 09B - 319',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.217:9898/normal.html'
+
+    },
+
 
     //--------------------------BOTECO--------------------------------
     
