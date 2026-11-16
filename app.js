@@ -4,41 +4,59 @@ pdvsJson.map((pdv) => {
     const pdvsclone = selector('.link').cloneNode(true);
     pdvsclone.classList.remove('off');
 
-                           //  refs pros cards puxar
+                           //  refs pros cards puxar - sam
     pdvsclone.querySelector('.link a').href = pdv.link;
     pdvsclone.querySelector('.card img').src = pdv.img;
     pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
     pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
 
-                          // cor dos pdv
+                          // cor dos pdv - sam
     const desc = pdv.descripion ? pdv.descripion.trim() : '';
 
     if (desc === 'Rotisseria') {
         pdvsclone.querySelector('.card').style.background = '#000000';
-    } else if (desc === 'A la Carte') {
-        pdvsclone.querySelector('.card').style.background = '#708090';
-    } else if (desc === 'Churros') {
-        pdvsclone.querySelector('.card').style.background = '#00008B';
-    } else if (desc === 'Adega') {
-        pdvsclone.querySelector('.card').style.background = '#8B0000';
-    } else if (desc === 'Boteco') {
-        pdvsclone.querySelector('.card').style.background = '#002D58';
-    } else if (desc === 'Super Drive') {
-        pdvsclone.querySelector('.card').style.background = '#004b23';
-    } else if (desc === 'Café') {
-        pdvsclone.querySelector('.card').style.background = '#B22222';
-    } else if (desc === 'ELETRO' || desc === 'RESERVA') {
-        pdvsclone.querySelector('.card').style.background = '#D83006';
-    } else if (desc.toLowerCase() === 'area nova') {
-        pdvsclone.querySelector('.card').style.background = '#A9A9A9';
+
+    } 
+    
+    else if (desc === 'A La Carte') {
+        pdvsclone.querySelector('.card').style.background = '#000000';
+
+    } 
+        else if (desc === 'Café') {
+        pdvsclone.querySelector('.card').style.background = '#920031c0';
+    } 
+    
+    else if (desc === 'Churros') {
+        pdvsclone.querySelector('.card').style.background = '#920031c0';
+
+    } 
+    
+    else if (desc === 'Adega') {
+        pdvsclone.querySelector('.card').style.background = '#920031c0';
+    } 
+    
+    else if (desc === 'Boteco') {
+        pdvsclone.querySelector('.card').style.background = '#ff670fc4';
+    } 
+    
+    else if (desc === 'Frente de Loja') {
+        pdvsclone.querySelector('.card').style.background = '#00eeff71';
+    } 
+
+    else if (desc === 'ELETRO' || desc === 'RESERVA') {
+        pdvsclone.querySelector('.card').style.background = '#ff3300bd';
+    }
+    
+    else if (desc.toLowerCase() === 'area nova') {
+        pdvsclone.querySelector('.card').style.background = '#00eeff71';
     }
 
-                    // Cor exclusiva p pdv 5 e 6 ( drive )
+                    // Cor exclusiva p pdv 5 e 6 ( drive ) - sam
     if (pdv.name === 'PDV 5 - 424' || pdv.name === 'PDV 6 - 336') {
-        pdvsclone.querySelector('.card').style.background = '#1eff0070'; // Escolha a cor desejada aqui
+        pdvsclone.querySelector('.card').style.background = '#1eff0070'; 
     }
 
-                    // filtragem da coluna
+                    // filtragem da coluna - sam
     const descUpper = desc.toUpperCase();
 
     if (descUpper === 'FRENTE DE LOJA') {
