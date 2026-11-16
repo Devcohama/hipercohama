@@ -3,20 +3,19 @@ const selector = (element) => document.querySelector(element);
 pdvsJson.map((pdv) => {
   const pdvsclone = selector('.link').cloneNode(true);
 
-  // 1. Decidir em qual coluna/área vai colocar o clone com base na descrição
+  // Envia para a coluna certa com base na descrição
   if (pdv.descripion === 'Frente de Loja') {
     selector('#coluna-frente').append(pdvsclone);
   } else {
-    selector('#coluna-area-nova').append(pdvsclone);
+    selector('#coluna-outros').append(pdvsclone);
   }
 
-  // 2. Preencher as informações do cartão
   pdvsclone.querySelector('.link a').href = pdv.link;
   pdvsclone.querySelector('.card img').src = pdv.img;
   pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
   pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
 
-  // 3. Manter a lógica de cores que já tinha
+  // Lógica de cores que já utilizava
   if(pdv.descripion === 'Rotisseria') {
     pdvsclone.querySelector('.card').style.background = '#000000';
   }
