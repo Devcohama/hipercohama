@@ -4,69 +4,56 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 a {
     list-style: none;
     text-decoration: none;
     color: white;
 }
-
 body {
     background: #070600;
     color: white;
 }
-
 header {
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
     background-color: #2F4858;
 }
-
 main {
     padding: 2rem 0;
     margin: 0 auto;
     width: 98%;
     display: flex;
     flex-direction: column;
-    gap: 30px; /* Espaço entre as linhas horizontais */
 }
-
 .off {
     display: none;
 }
-
-/* Alterado aqui para ficarem lado a lado */
 .link {
-    display: inline-block;
-    margin: 0.5rem;
+    margin: 1rem;
 }
-
 .card {
     padding: 1rem 1rem 1.5rem 1rem;
     background-color: #2F4858;
+
     display: inline-block;
     border-radius: 8px;
     transition: ease-in-out 0.5s;
 }
-
 .card:hover {
     filter: brightness(1.4);
     transform: scale(1.02);
 }
-
 .card img{
     width: 200px;
     object-fit: cover;
 }
-
 .card h2 {
     margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
 }
-
 .card p {
     margin-top: 5px;
     text-align: center;
@@ -74,42 +61,7 @@ main {
     color: rgba(255, 255, 255, 0.536);
 }
 
-/* Cada secção ocupa a largura toda deitado */
-.secao-horizontal {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.03);
-    border-radius: 8px;
-    padding: 20px;
-}
-
-.secao-horizontal h2 {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-align: left; /* Alinhado à esquerda na linha */
-    border-bottom: 2px solid #3c4043;
-    padding-bottom: 8px;
-    text-transform: uppercase;
-}
-
-/* Os cartões ficam em linha horizontal (flex wrap para quebrar se não couberem) */
-.pdv-area-linha {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: flex-start; /* Alinha os cartões da esquerda para a direita */
-}
-
 .pdv-area {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* Área interna de cada coluna para alinhar os cartões */
-.pdv-area-coluna {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
