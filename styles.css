@@ -65,6 +65,9 @@ main {
   gap: 20px; /* Espaço entre as colunas */
   padding: 20px;
 }
+.coluna {
+  flex: 1; /* Faz com que ocupem o mesmo espaço horizontal */
+}
 .pdv-area {
     width: 100%;
     display: flex;
