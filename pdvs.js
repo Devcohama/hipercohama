@@ -263,15 +263,15 @@ let pdvsJson = [
     //--------------------------A LA CARTE--------------------------------
 
     {
-        name: 'CX 09 - PDV 630',
+        name: 'CX 01 - PDV 630 - A LA CARTE',
         descripion:'A La Carte',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.34:9898/normal.html'
     },
     {
-        name: 'OFF ATUALIZAR',
+        name: 'OFF - ATUALIZAR',
         descripion:'A La Carte',
-        img: 'imagens/download.jfif',
+        img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.60:9898/normal.html'
     },
 
