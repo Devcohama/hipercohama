@@ -4,13 +4,13 @@ pdvsJson.map((pdv) => {
     const pdvsclone = selector('.link').cloneNode(true);
     pdvsclone.classList.remove('off');
 
-    // 1. Preenche os dados do card primeiro
+                           //  refs pros cards puxar
     pdvsclone.querySelector('.link a').href = pdv.link;
     pdvsclone.querySelector('.card img').src = pdv.img;
     pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
     pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
 
-    // 2. Aplica as cores personalizadas baseadas na descrição ou no PDV específico
+                          // cor dos pdv
     const desc = pdv.descripion ? pdv.descripion.trim() : '';
 
     if (desc === 'Rotisseria') {
@@ -33,12 +33,12 @@ pdvsJson.map((pdv) => {
         pdvsclone.querySelector('.card').style.background = '#A9A9A9';
     }
 
-    // Cor exclusiva para o PDV 5 e PDV 6 (continuam na Frente de Loja)
+                    // Cor exclusiva p pdv 5 e 6 ( drive )
     if (pdv.name === 'PDV 5 - 424' || pdv.name === 'PDV 6 - 336') {
         pdvsclone.querySelector('.card').style.background = '#1eff0070'; // Escolha a cor desejada aqui
     }
 
-    // 3. Filtra e envia para a linha horizontal correta
+                    // filtragem da coluna
     const descUpper = desc.toUpperCase();
 
     if (descUpper === 'FRENTE DE LOJA') {
@@ -50,11 +50,11 @@ pdvsJson.map((pdv) => {
     else if (descUpper === 'ROTISSERIA' || descUpper === 'A LA CARTE') {
         selector('#coluna-rotisseria-alacarte').append(pdvsclone);
     }
-    else if (descUpper === 'ELETRO' || descUpper === 'RESERVA') {
-        selector('#coluna-eletro').append(pdvsclone);
-    }
     else if (descUpper === 'BOTECO') {
         selector('#coluna-boteco').append(pdvsclone);
+    }
+        else if (descUpper === 'ELETRO' || descUpper === 'RESERVA') {
+        selector('#coluna-eletro').append(pdvsclone);
     }
 
     else {
