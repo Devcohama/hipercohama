@@ -81,7 +81,7 @@ main {
     justify-content: center;
 }
 
-/* Container de cada seção */
+
 .secao-horizontal {
     width: 100%;
     margin-bottom: 1.5rem;
@@ -127,7 +127,7 @@ main {
     gap: 15px;                
     padding: 10px 0;
 }
-/* Estilo para deixar o título isolado no lado direito */
+
 .titulo-rodape-direito {
     width: 98%;
     max-width: 1400px;
@@ -140,11 +140,11 @@ main {
 .titulo-rodape-direito h2 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #00ccff; 
+    color: #00ccff;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
+/* Efeito de Brilho / Glow */
 @keyframes brilhar {
     0% {
         opacity: 0.4;
@@ -152,7 +152,7 @@ main {
     }
     50% {
         opacity: 1;
-        text-shadow: 0 0 20px rgba(0, 140, 255, 0.8), 0 0 30px rgba(0, 150, 255, 0.6); 
+        text-shadow: 0 0 20px rgba(0, 140, 255, 0.8), 0 0 30px rgba(0, 150, 255, 0.6); /* Brilho branco/azulado */
     }
     100% {
         opacity: 0.4;
