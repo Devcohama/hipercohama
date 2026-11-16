@@ -25,14 +25,18 @@
     </header>
 
     <main>
-        <div class="pdv-area">
-            
-        </div>
+        <!-- As colunas onde o JavaScript vai separar os PDVs -->
         <div class="painel-colunas">
-  <div id="coluna-frente-loja"></div>
-  <div id="coluna-outros-setores"></div>
-</div>
-        
+            <div class="coluna">
+                <h2>Frente de Loja</h2>
+                <div id="coluna-frente" class="pdv-area-coluna"></div>
+            </div>
+            
+            <div class="coluna">
+                <h2>Outros Setores</h2>
+                <div id="coluna-outros" class="pdv-area-coluna"></div>
+            </div>
+        </div>
     </main>
 
     <script type="text/javascript" src="pdvs.js"></script>
