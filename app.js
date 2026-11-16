@@ -1,44 +1,74 @@
 const selector = (element) => document.querySelector(element);
 
-
 pdvsJson.map((pdv) => {
-  const pdvsclone = selector('.link').cloneNode(true);
-    selector('.pdv-area').append(pdvsclone);
+    const pdvsclone = selector('.link').cloneNode(true);
+    pdvsclone.classList.remove('off');
 
-    pdvsclone.querySelector('.link a').href = pdv.link ;
+    // refs pros cards puxar - sam
+    pdvsclone.querySelector('.link a').href = pdv.link;
     pdvsclone.querySelector('.card img').src = pdv.img;
-    pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
+
+    // Quebra a linha automaticamente no hífen (-) para a numeração ir para baixo
+   const nomeFormatado = pdv.name ? pdv.name.replace(/\s*-\s*/g, '<br>') : '';
+pdvsclone.querySelector('h2').innerHTML = nomeFormatado;
+
     pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
 
+    // cor dos pdv - sam
+    const desc = pdv.descripion ? pdv.descripion.trim() : '';
 
-    if(pdv.descripion === 'Rotisseria') {
-      pdvsclone.querySelector('.card').style.background = '#000000';
+    if (desc === 'Rotisseria') {
+        pdvsclone.querySelector('.card').style.background = '#000000';
+    } 
+    else if (desc === 'A La Carte') {
+        pdvsclone.querySelector('.card').style.background = '#000000';
+    } 
+    else if (desc === 'Café') {
+        pdvsclone.querySelector('.card').style.background = '#920031c0';
+    } 
+    else if (desc === 'Churros') {
+        pdvsclone.querySelector('.card').style.background = '#920031c0';
+    } 
+    else if (desc === 'Adega') {
+        pdvsclone.querySelector('.card').style.background = '#920031c0';
+    } 
+    else if (desc === 'Boteco') {
+        pdvsclone.querySelector('.card').style.background = '#0f0027';
+    } 
+    else if (desc === 'Frente de Loja') {
+        pdvsclone.querySelector('.card').style.background = '#00eeff71';
+    } 
+    else if (desc === 'ELETRO' || desc === 'RESERVA') {
+        pdvsclone.querySelector('.card').style.background = '#ff3300bd';
     }
-    if(pdv.descripion === 'A la Carte') {
-      pdvsclone.querySelector('.card').style.background = '#708090';
+    else if (desc.toLowerCase() === 'area nova') {
+        pdvsclone.querySelector('.card').style.background = '#00eeff71';
     }
-    if(pdv.descripion === 'Churros') {
-      pdvsclone.querySelector('.card').style.background = '#00008B';
+
+    // Cor exclusiva p pdv 5 e 6 ( drive ) - sam
+    if (pdv.name === 'PDV 5 - 424' || pdv.name === 'PDV 6 - 336') {
+        pdvsclone.querySelector('.card').style.background = '#1eff0070'; 
     }
-    if(pdv.descripion === 'Adega') {
-      pdvsclone.querySelector('.card').style.background = '#8B0000';
+
+    // filtragem da coluna - sam
+    const descUpper = desc.toUpperCase();
+
+    if (descUpper === 'FRENTE DE LOJA') {
+        selector('#coluna-frente').append(pdvsclone);
+    } 
+    else if (descUpper === 'AREA NOVA') {
+        selector('#coluna-area-nova').append(pdvsclone);
+    } 
+    else if (descUpper === 'ROTISSERIA' || descUpper === 'A LA CARTE') {
+        selector('#coluna-rotisseria-alacarte').append(pdvsclone);
     }
-    if(pdv.descripion === 'Boteco') {
-      pdvsclone.querySelector('.card').style.background = '#002D58';
+    else if (descUpper === 'BOTECO') {
+        selector('#coluna-boteco').append(pdvsclone);
     }
-    if(pdv.descripion === 'Super Drive') {
-      pdvsclone.querySelector('.card').style.background = '#004b23';
+    else if (descUpper === 'ELETRO' || descUpper === 'RESERVA') {
+        selector('#coluna-eletro').append(pdvsclone);
     }
-    if(pdv.descripion === 'Café') {
-      pdvsclone.querySelector('.card').style.background = '#B22222';
-    }
-    if(pdv.descripion === 'ELETRO') {
-      pdvsclone.querySelector('.card').style.background = '#D83006';
-    }
-    if(pdv.descripion === 'RESERVA') {
-      pdvsclone.querySelector('.card').style.background = '#D83006';
-    }
-  if(pdv.descripion === 'Area Nova') {
-      pdvsclone.querySelector('.card').style.background = '#A9A9A9';
+    else {
+        selector('#coluna-outros').append(pdvsclone);
     }
 });
