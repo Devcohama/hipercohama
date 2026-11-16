@@ -4,21 +4,25 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
     list-style: none;
     text-decoration: none;
     color: white;
 }
+
 body {
     background: #070600;
     color: white;
 }
+
 header {
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
     background-color: #2F4858;
 }
+
 main {
     padding: 2rem 0;
     margin: 0 auto;
@@ -26,34 +30,40 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .off {
     display: none;
 }
+
 .link {
     margin: 1rem;
 }
+
 .card {
     padding: 1rem 1rem 1.5rem 1rem;
     background-color: #2F4858;
-
     display: inline-block;
     border-radius: 8px;
     transition: ease-in-out 0.5s;
 }
+
 .card:hover {
     filter: brightness(1.4);
     transform: scale(1.02);
 }
-.card img{
+
+.card img {
     width: 200px;
     object-fit: cover;
 }
+
 .card h2 {
     margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .card p {
     margin-top: 5px;
     text-align: center;
@@ -67,15 +77,32 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* Container de cada seção */
+.secao-horizontal {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+/* SOMENTE O NOME (TÍTULO) CENTRALIZADO */
+.secao-horizontal h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
 .pdv-area-linha {
     display: flex;
-    flex-direction: row;       
-    flex-wrap: wrap;          
-    gap: 15px;            
+    flex-direction: row;      /* Mantém os blocos orientados na horizontal */
+    flex-wrap: wrap;          /* Faz os cards descerem para a próxima linha automaticamente */
+    gap: 15px;                /* Espaçamento entre os cards */
     padding: 10px 0;
 }
+
 @media (max-width: 500px) {
-    header h1{
+    header h1 {
         font-size: 25px;
     }
 }
