@@ -69,10 +69,10 @@ main {
 }
 .pdv-area-linha {
     display: flex;
-    flex-direction: row;       /* Deixa os blocos deitados na horizontal */
-    flex-wrap: nowrap;         /* Mantém todos na mesma linha */
-    overflow-x: auto;          /* Adiciona a barra de rolagem horizontal se necessário */
-    gap: 15px;                 /* Espaçamento entre um card e outro */
+    flex-direction: row;       /* Deixa os cards em linha (deitados) */
+    flex-wrap: nowrap;         /* Mantém todos na mesma linha horizontal */
+    overflow-x: auto;          /* Cria a barra de rolagem para o lado se faltar espaço */
+    gap: 15px;                 /* Espaço de respiro entre um card e outro */
     padding: 10px 0;
 }
 @media (max-width: 500px) {
