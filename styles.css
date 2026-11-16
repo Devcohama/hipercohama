@@ -62,11 +62,19 @@ main {
 }
 .painel-colunas {
   display: flex;
-  gap: 20px; /* Espaço entre as colunas */
+  gap: 20px;
   padding: 20px;
 }
+
 .coluna {
-  flex: 1; /* Faz com que ocupem o mesmo espaço horizontal */
+  flex: 1; /* Faz com que cada coluna ocupe metade da tela */
+}
+
+.coluna h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .pdv-area {
     width: 100%;
