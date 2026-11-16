@@ -67,11 +67,11 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
-#coluna-area-nova {
+.pdv-area-linha {
     display: flex;
-    flex-direction: row;       /* Deixa os cards dispostos horizontalmente (deitados) */
-    flex-wrap: nowrap;         /* Mantém tudo na mesma linha (ou mude para wrap se quiser que quebre para a linha de baixo quando faltar espaço) */
-    overflow-x: auto;          /* Adiciona barra de rolagem horizontal se passar da tela */
+    flex-direction: row;       /* Deixa os blocos deitados na horizontal */
+    flex-wrap: nowrap;         /* Mantém todos na mesma linha */
+    overflow-x: auto;          /* Adiciona a barra de rolagem horizontal se necessário */
     gap: 15px;                 /* Espaçamento entre um card e outro */
     padding: 10px 0;
 }
