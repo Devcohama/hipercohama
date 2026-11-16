@@ -69,9 +69,9 @@ main {
 }
 .pdv-area-linha {
     display: flex;
-    flex-direction: row;       /* Deixa os cards em linha (deitados) */
-    flex-wrap: wrap;         /* Mantém todos na mesma linha horizontal */
-    gap: 15px;                 /* Espaço de respiro entre um card e outro */
+    flex-direction: row;       /* Mantém os blocos orientados na horizontal */
+    flex-wrap: wrap;           /* Faz os cards descerem para a próxima linha automaticamente */
+    gap: 15px;                 /* Espaçamento entre os cards */
     padding: 10px 0;
 }
 @media (max-width: 500px) {
