@@ -14,12 +14,7 @@ pdvsJson.map((pdv) => {
   pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
   pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
   
-  if (pdv.descripion === 'Rotisseria') {
-    selector('#coluna-Rotisseria').append(pdvsclone);
-  } else {
-    selector('#coluna-outros').append(pdvsclone);
-  }
-
+  if (pdv.descripion === 'Rotisseria')
   {
     pdvsclone.querySelector('.card').style.background = '#000000';
   }
