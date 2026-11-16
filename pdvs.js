@@ -313,12 +313,6 @@ let pdvsJson = [
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.50:9898/normal.html'
     },
-    {
-        name: 'PDV CHURROS',
-        descripion:'Churros',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.41:9898/normal.html'
-    },
-    
+
     
 ];
