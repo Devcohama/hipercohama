@@ -9,6 +9,11 @@ pdvsJson.map((pdv) => {
   } else {
     selector('#coluna-outros').append(pdvsclone);
   }
+    if (pdv.descripion === 'Frente de Loja') {
+    selector('#coluna-Rotisseria').append(pdvsclone);
+  } else {
+    selector('#coluna-outros').append(pdvsclone);
+  }
 
   pdvsclone.querySelector('.link a').href = pdv.link;
   pdvsclone.querySelector('.card img').src = pdv.img;
