@@ -69,12 +69,12 @@ main {
 }
 #coluna-area-nova {
     display: flex;
-    flex-direction: row;
-    gap: 15px;
-    overflow-x: auto;
+    flex-direction: row;       /* Deixa os cards dispostos horizontalmente (deitados) */
+    flex-wrap: nowrap;         /* Mantém tudo na mesma linha (ou mude para wrap se quiser que quebre para a linha de baixo quando faltar espaço) */
+    overflow-x: auto;          /* Adiciona barra de rolagem horizontal se passar da tela */
+    gap: 15px;                 /* Espaçamento entre um card e outro */
     padding: 10px 0;
 }
-
 @media (max-width: 500px) {
     header h1{
         font-size: 25px;
