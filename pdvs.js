@@ -3,135 +3,135 @@ let pdvsJson = [
    //--------------------------FRENTE DE LOJA--------------------------------
     
     {
-        name: 'PDV 1 - 413',
+        name: 'CX 1 - PDV 413',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.124:9898/normal.html'
     },
     {
-        name: 'PDV 2 - 407',
+        name: 'CX 2 - PDV 407',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.51:9898/normal.html'
     },
         
     {
-        name: 'PDV 3 - 316',
+        name: 'CX 3 - PDV 316',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.163:9898/normal.html'
     },
             
     {
-        name: 'PDV 4 - 403',
+        name: 'CX 4 - PDV 403',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.43:9898/normal.html'
     },
     {
-        name: 'PDV 5 - 424',
+        name: 'CX 5 - PDV 424',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.125:9898/normal.html'
     },
     {
-        name: 'PDV 6 - 336',
+        name: 'CX 6 - PDV 336',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.115:9898/normal.html'
     },
     {
-        name: 'PDV 7 - 405',
+        name: 'CX 7 - PDV 405',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.47:9898/normal.html'
     },
     {
-        name: 'PDV 8 - 395',
+        name: 'CX 8 - PDV 395',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.169:9898/normal.html'
     },
     {
-        name: 'PDV 9 - 410',
+        name: 'CX 9 - PDV 410',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.110:9898/normal.html'
     },
     {
-        name: 'PDV 10 - 349',
+        name: 'CX 10 - PDV 349',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.117:9898/normal.html'
     },
     {
-        name: 'PDV 11 - 420',
+        name: 'CX 11 - PDV 420',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.202:9898/normal.html'
     },
     {
-        name: 'PDV 12 - 321',
+        name: 'CX 12 - PDV 321',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.123:9898/normal.html'
     },
     {
-        name: 'PDV 13 - 401',
+        name: 'CX 13 - PDV 401',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.42:9898/normal.html'
     },
     {
-        name: 'PDV 14 - 309',
+        name: 'CX 14 - PDV 309',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link:  'http://192.168.60.28:9898/normal.html'
     },
     {
-        name: 'PDV 15 - 394',
+        name: 'CX 15 - PDV 394',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.104:9898/normal.html'
     },
     {
-        name: 'PDV 16 - 310',
+        name: 'CX 16 - PDV 310',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.223:9898/normal.html'
     },
     {
-        name: 'PDV 17 - 422',
+        name: 'CX 17 - PDV 422',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.189:9898/normal.html'
     },
     {
-        name: 'PDV 18 - 411',
+        name: 'CX 18 - PDV 411',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.111:9898/normal.html'
     },
     {
-        name: 'PDV 19 - 376',
+        name: 'CX 19 - PDV 376',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.22:9898/normal.html'
     },
     {
-        name: 'PDV 20 - 337',
+        name: 'CX 20 - PDV 337',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.119:9898/normal.html'
     },
     {
-        name: 'PDV 21 - 418',
+        name: 'CX 21 - PDV 418',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.33:9898/normal.html'
     },
     {
-        name: 'PDV 22 - 303',
+        name: 'CX 22 - PDV 303',
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.161:9898/normal.html'
@@ -139,58 +139,56 @@ let pdvsJson = [
 
     //--------------------------AREA NOVA--------------------------------
     
-    
-     {
-        name: 'PDV 15 - 301',
+    {
+        name: 'CX 15 - PDV 301',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.160:9898/normal.html'
     },
     {
-        name: 'PDV 14 - 416',
+        name: 'CX 14 - PDV 416',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.70:9898/normal.html'
     },
     {
-        name: 'PDV 13 - 397',
+        name: 'CX 13 - PDV 397',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.20:9898/normal.html'
     },
     {
-        name: 'PDV 12 - 404',
+        name: 'CX 12 - PDV 404',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.45:9898/normal.html'
     },
     {
-        name: 'PDV 11 - 315',
+        name: 'CX 11 - PDV 315',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.44:9898/normal.html'
     },
-
-        {
-        name: 'PDV 10A - 427',
+    {
+        name: 'CX 10A - PDV 427',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.79:9898/normal.html'
     },
     {
-        name: 'PDV 10B - 378',
+        name: 'CX 10B - PDV 378',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.29:9898/normal.html'
     },
     {
-        name: 'PDV 09A - 390',
+        name: 'CX 09A - PDV 390',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.76:9898/normal.html'
     },
-     {
-        name: 'PDV 9b - 319',
+    {
+        name: 'CX 9B - PDV 319',
         descripion:'Area Nova',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.217:9898/normal.html'
@@ -198,83 +196,78 @@ let pdvsJson = [
 
     //--------------------------ELETRO--------------------------------
     
-
     {
-        name: 'PDV 02 - 419',
+        name: 'CX 02 - PDV 419',
         descripion:'ELETRO',
         img: 'imagens/ELETRO_MATEUS.png',
         link: 'http://192.168.60.78:9898/normal.html'
     },
-            
-     {
-        name: 'PDV 03 - 396',
+    {
+        name: 'CX 03 - PDV 396',
         descripion:'ELETRO',
         img: 'imagens/ELETRO_MATEUS.png',
         link: 'http://192.168.60.69:9898/normal.html'
     },
 
-    //--------------------------ROTISSEIRA/RESTAURANTE--------------------------------
+    //--------------------------ROTISSERIA/RESTAURANTE--------------------------------
     
     {
-        name: 'PDV 01 - 305',
+        name: 'CX 01 - PDV 305',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.191:9898/normal.html'
     },
     {
-        name: 'PDV 02 - 334',
+        name: 'CX 02 - PDV 334',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.171:9898/normal.html'
     },
     {
-        name: 'PDV 03 - 352',
+        name: 'CX 03 - PDV 352',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.183:9898/normal.html'
     },
     {
-        name: 'PDV 04 - 414',
+        name: 'CX 04 - PDV 414',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.194:9898/normal.html'
     },
     {
-        name: 'PDV 05 - 379',
+        name: 'CX 05 - PDV 379',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.224:9898/normal.html'
     },
     {
-        name: 'PDV 06 - 425',
+        name: 'CX 06 - PDV 425',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.222:9898/normal.html'
     },
     {
-        name: 'PDV 07 - 408',
+        name: 'CX 07 - PDV 408',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.52:9898/normal.html'
     },
     {
-        name: 'PDV 08 - 393',
+        name: 'CX 08 - PDV 393',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.108:9898/normal.html'
     },
 
-    
-  //--------------------------A LA CARTE--------------------------------
+    //--------------------------A LA CARTE--------------------------------
 
-    
     {
-        name: 'PDV 09 - 630',
+        name: 'CX 09 - PDV 630',
         descripion:'A La Carte',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.34:9898/normal.html'
     },
-    
     {
         name: 'OFF ATUALIZAR',
         descripion:'A La Carte',
@@ -282,18 +275,16 @@ let pdvsJson = [
         link: 'http://192.168.60.60:9898/normal.html'
     },
 
-   
-
     //--------------------------BOTECO--------------------------------
     
-        {
-        name: 'PDV 01 - 423',
+    {
+        name: 'CX 01 - PDV 423',
         descripion:'Boteco',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.129:9898/normal.html'
     },
     {
-        name: 'PDV 02 - 380',
+        name: 'CX 02 - PDV 380',
         descripion:'Boteco',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.46:9898/normal.html'
@@ -301,23 +292,23 @@ let pdvsJson = [
 
     //--------------------------UNICOS--------------------------------
     
-        {
-        name: 'PDV - CAFÉ',
+    {
+        name: 'CAFÉ',
         descripion:'Café',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.121:9898/normal.html'
     },
     {
-        name: 'PDV - ADEGA',
+        name: 'ADEGA',
         descripion:'Adega',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.50:9898/normal.html'
     },
     {
-        name: 'PDV CHURROS',
+        name: 'CHURROS',
         descripion:'Churros',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.41:9898/normal.html'
     },
-    
 ];
+//separado por e organizado por estrutura por sam
