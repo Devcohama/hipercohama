@@ -84,7 +84,7 @@ main {
     margin-bottom: 1.5rem;
 }
 
-/* SOMENTE O NOME (TÍTULO) CENTRALIZADO */
+/* Título centralizado */
 .secao-horizontal h2 {
     text-align: center;
     text-transform: uppercase;
@@ -97,6 +97,7 @@ main {
     display: flex;
     flex-direction: row;      /* Mantém os blocos orientados na horizontal */
     flex-wrap: wrap;          /* Faz os cards descerem para a próxima linha automaticamente */
+    justify-content: center;  /* <--- ISSO AQUI CENTRALIZA OS CARDS NO MEIO DA TELA */
     gap: 15px;                /* Espaçamento entre os cards */
     padding: 10px 0;
 }
