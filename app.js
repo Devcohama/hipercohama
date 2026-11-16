@@ -4,9 +4,10 @@ pdvsJson.map((pdv) => {
   const pdvsclone = selector('.link').cloneNode(true);
 
 // Filtra e envia para a linha horizontal correta
-if (pdv.descripion === 'Frente de Loja') {
+// Filtra e envia para a linha horizontal correta (tolerante a letras maiúsculas/minúsculas)
+if (pdv.descripion.toLowerCase() === 'frente de loja' || pdv.descripion.toLowerCase() === 'frente de loja') {
     selector('#coluna-frente').append(pdvsclone);
-} else if (pdv.descripion === 'Area Nova') {
+} else if (pdv.descripion.toLowerCase() === 'area nova') {
     selector('#coluna-area-nova').append(pdvsclone);
 } else {
     selector('#coluna-outros').append(pdvsclone);
