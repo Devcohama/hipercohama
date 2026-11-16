@@ -29,14 +29,17 @@ main {
     width: 98%;
     display: flex;
     flex-direction: column;
+    gap: 30px; /* Espaço entre as linhas horizontais */
 }
 
 .off {
     display: none;
 }
 
+/* Alterado aqui para ficarem lado a lado */
 .link {
-    margin: 1rem;
+    display: inline-block;
+    margin: 0.5rem;
 }
 
 .card {
@@ -69,15 +72,6 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.536);
-}
-
-main {
-    padding: 2rem 0;
-    margin: 0 auto;
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px; /* Espaço entre as linhas horizontais */
 }
 
 /* Cada secção ocupa a largura toda deitado */
