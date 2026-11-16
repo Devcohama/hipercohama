@@ -51,8 +51,4 @@ else {
   if(pdv.descripion === 'Area Nova') {
       pdvsclone.querySelector('.card').style.background = '#A9A9A9';
     }
-  // Cor exclusiva para o PDV 5 e PDV 6 da Frente de Loja
-        if (pdv.name === 'PDV 5 - 424' || pdv.name === 'PDV 6 - 336') {
-            if (cardDiv) cardDiv.style.background = '#008000'; // Escolha a cor desejada aqui
-        }
 });
