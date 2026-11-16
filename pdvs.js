@@ -30,13 +30,13 @@ let pdvsJson = [
     },
     {
         name: 'PDV 5 - 424',
-        descripion:'Super Drive',
+        descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.125:9898/normal.html'
     },
     {
         name: 'PDV 6 - 336',
-        descripion:'Super Drive',
+        descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.115:9898/normal.html'
     },
