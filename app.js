@@ -6,9 +6,19 @@ pdvsJson.map((pdv) => {
   // Filtra e envia para a linha horizontal correta
   if (pdv.descripion === 'Frente de Loja') {
     selector('#coluna-frente').append(pdvsclone);
+  
+  else if (pdv.descripion === 'Area Nova') {
+    areanova.appendChild(pdvsclone); // <-- ADICIONE ESTE BLOCO
+}
+
+
+
+
+    
   } else {
     selector('#coluna-outros').append(pdvsclone);
   }
+  
 
   pdvsclone.querySelector('.link a').href = pdv.link;
   pdvsclone.querySelector('.card img').src = pdv.img;
