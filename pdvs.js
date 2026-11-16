@@ -30,13 +30,13 @@ let pdvsJson = [
     },
     {
         name: 'PDV 5 - 424',
-        descripion:'Frente de Loja',
+        descripion:'Super Drive',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.125:9898/normal.html'
     },
     {
         name: 'PDV 6 - 336',
-        descripion:'Frente de Loja',
+        descripion:'Super Drive',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.115:9898/normal.html'
     },
@@ -72,7 +72,7 @@ let pdvsJson = [
     },
     {
         name: 'PDV 12 - 321',
-        descripion:'Frente de Loja',
+        descripion:'Frente de Loja 321',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.123:9898/normal.html'
     },
@@ -126,7 +126,7 @@ let pdvsJson = [
     },
     {
         name: 'PDV 21 - 418',
-        descripion:'Frente de Loja',
+        descripion:'Frente de Loja ',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.33:9898/normal.html'
     },
@@ -135,6 +135,65 @@ let pdvsJson = [
         descripion:'Frente de Loja',
         img: 'imagens/1.jpg',
         link: 'http://192.168.60.161:9898/normal.html'
+    },
+
+    //--------------------------AREA NOVA--------------------------------
+    
+    
+     {
+        name: 'PDV 01 - 301',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.160:9898/normal.html'
+    },
+            
+    {
+        name: 'PDV 02 - 416',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.70:9898/normal.html'
+    },
+    {
+        name: 'PDV 03 - 397',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.20:9898/normal.html'
+    },
+    {
+        name: 'PDV 04 - 404',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.45:9898/normal.html'
+    },
+    {
+        name: 'PDV 05 - 315',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.44:9898/normal.html'
+    },
+    {
+        name: 'PDV 06 - 378',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.29:9898/normal.html'
+    },
+    {
+        name: 'PDV 07 - 319',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.217:9898/normal.html'
+    },
+    {
+        name: 'PDV 08 - 427',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.79:9898/normal.html'
+    },
+    {
+        name: 'PDV 09 - 390',
+        descripion:'Area Nova',
+        img: 'imagens/1.jpg',
+        link: 'http://192.168.60.76:9898/normal.html'
     },
 
     //--------------------------ELETRO--------------------------------
@@ -190,7 +249,7 @@ let pdvsJson = [
         name: 'PDV 06 - 425',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.191:9898/normal.html'
+        link: 'http://192.168.60.222:9898/normal.html'
     },
     {
         name: 'PDV 07 - 408',
@@ -223,67 +282,7 @@ let pdvsJson = [
         link: 'http://192.168.60.60:9898/normal.html'
     },
 
-    //--------------------------AREA NOVA--------------------------------
-    
-    
-     {
-        name: 'PDV 15 - 301',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.160:9898/normal.html'
-    },
-            
-    {
-        name: 'PDV 14 - 416',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.70:9898/normal.html'
-    },
-    {
-        name: 'PDV 13 - 397',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.20:9898/normal.html'
-    },
-    {
-        name: 'PDV 12 - 404',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.45:9898/normal.html'
-    },
-    {
-        name: 'PDV 11 - 315',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.44:9898/normal.html'
-    },
- 
-    {
-        name: 'PDV 10A - 427',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.79:9898/normal.html'
-    },
-    {
-        name: 'PDV 10B - 378',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.29:9898/normal.html'
-    },
-    {
-        name: 'PDV 09A - 390',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.76:9898/normal.html'
-    },
-    {
-        name: 'PDV 09B - 319',
-        descripion:'Area Nova',
-        img: 'imagens/1.jpg',
-        link: 'http://192.168.60.217:9898/normal.html'
-
-    },
-
+   
 
     //--------------------------BOTECO--------------------------------
     
