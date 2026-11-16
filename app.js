@@ -4,6 +4,16 @@ const selector = (element) => document.querySelector(element);
 pdvsJson.map((pdv) => {
   const pdvsclone = selector('.link').cloneNode(true);
     selector('.pdv-area').append(pdvsclone);
+  // Filtra e envia para a linha horizontal correta
+if (pdv.descripion.toUpperCase() === 'FRENTE DE LOJA') {
+    selector('#coluna-frente').append(pdvsclone);
+} 
+else if (pdv.descripion.toUpperCase() === 'AREA NOVA') {
+    selector('#coluna-area-nova').append(pdvsclone);
+} 
+else {
+    selector('#coluna-outros').append(pdvsclone);
+}
 
     pdvsclone.querySelector('.link a').href = pdv.link ;
     pdvsclone.querySelector('.card img').src = pdv.img;
