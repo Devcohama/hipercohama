@@ -3,12 +3,14 @@ const selector = (element) => document.querySelector(element);
 pdvsJson.map((pdv) => {
   const pdvsclone = selector('.link').cloneNode(true);
 
-// Filtra e envia para a linha horizontal correta
+// Filtro e distribuição dos PDVs
     if (pdv.descripion.toLowerCase() === 'frente de loja') {
         selector('#coluna-frente').append(pdvsclone);
-    } else if (pdv.descripion.toLowerCase() === 'area nova') {
+    } 
+    else if (pdv.descripion.toLowerCase() === 'area nova') {
         selector('#coluna-area-nova').append(pdvsclone);
-    } else {
+    } 
+    else {
         selector('#coluna-outros').append(pdvsclone);
     }
   
