@@ -67,6 +67,13 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+#coluna-area-nova {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
 
 @media (max-width: 500px) {
     header h1{
