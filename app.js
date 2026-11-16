@@ -3,7 +3,7 @@ const selector = (element) => document.querySelector(element);
 pdvsJson.map((pdv) => {
   const pdvsclone = selector('.link').cloneNode(true);
 
-  // Envia para a coluna certa com base na descrição
+  // Filtra e envia para a linha horizontal correta
   if (pdv.descripion === 'Frente de Loja') {
     selector('#coluna-frente').append(pdvsclone);
   } else {
@@ -15,7 +15,7 @@ pdvsJson.map((pdv) => {
   pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
   pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
 
-  // Lógica de cores que já utilizava
+  // Lógica de cores
   if(pdv.descripion === 'Rotisseria') {
     pdvsclone.querySelector('.card').style.background = '#000000';
   }
