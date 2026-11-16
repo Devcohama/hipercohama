@@ -9,13 +9,14 @@ pdvsJson.map((pdv) => {
   } else {
     selector('#coluna-outros').append(pdvsclone);
   }
+
   pdvsclone.querySelector('.link a').href = pdv.link;
   pdvsclone.querySelector('.card img').src = pdv.img;
   pdvsclone.querySelector('.card h2').innerHTML = pdv.name;
   pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
-  
-  if (pdv.descripion === 'Rotisseria')
-  {
+
+  // Lógica de cores que já utilizava
+  if(pdv.descripion === 'Rotisseria') {
     pdvsclone.querySelector('.card').style.background = '#000000';
   }
   if(pdv.descripion === 'A la Carte') {
