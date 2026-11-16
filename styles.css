@@ -128,23 +128,32 @@ main {
     padding: 10px 0;
 }
 
+
 .titulo-rodape-direito {
     width: 98%;
     max-width: 1400px;
     display: flex;
-    justify-content: flex-end; 
-    margin-top: 2rem;
+    justify-content: center;
+    margin: 2rem auto 1rem auto; 
     padding: 0 1rem;
+    text-align: center;
 }
 
 .titulo-rodape-direito h2 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #00ccff;
+    display: inline-block;
+    background: linear-gradient(135deg, #1a2a36, #0f172a);
+    color: #38bdf8; /* Azul brilhante */
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), 0 0 12px rgba(56, 189, 248, 0.25);
+    font-size: 0.95rem;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    animation: brilhar 2s infinite ease-in-out;
 }
-/* Efeito de Brilho / Glow */
+
 @keyframes brilhar {
     0% {
         opacity: 0.4;
