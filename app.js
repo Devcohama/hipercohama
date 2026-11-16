@@ -9,8 +9,8 @@ pdvsJson.map((pdv) => {
     pdvsclone.querySelector('.card img').src = pdv.img;
 
     // Quebra a linha automaticamente no hífen (-) para a numeração ir para baixo
-    const nomeFormatado = pdv.name ? pdv.name.replace(/\s*-\s*/, '<br>') : '';
-    pdvsclone.querySelector('.card h2').innerHTML = nomeFormatado;
+   const nomeFormatado = pdv.name ? pdv.name.replace(/\s*-\s*/g, '<br>') : '';
+pdvsclone.querySelector('h2').innerHTML = nomeFormatado;
 
     pdvsclone.querySelector('.card p').innerHTML = pdv.descripion;
 
