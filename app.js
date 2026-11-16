@@ -7,7 +7,7 @@ pdvsJson.map((pdv) => {
   if (pdv.descripion === 'Frente de Loja') {
     selector('#coluna-frente').append(pdvsclone);
   } else {
-    selector('#coluna-outros').append(pdvsclone);
+    selector('#coluna-area-nova').append(pdvsclone);
   }
 
   // 2. Preencher as informações do cartão
