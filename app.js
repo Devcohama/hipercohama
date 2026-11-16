@@ -3,21 +3,14 @@ const selector = (element) => document.querySelector(element);
 pdvsJson.map((pdv) => {
   const pdvsclone = selector('.link').cloneNode(true);
 
-  // Filtra e envia para a linha horizontal correta
-  if (pdv.descripion === 'Frente de Loja') {
+// Filtra e envia para a linha horizontal correta
+if (pdv.descripion === 'Frente de Loja') {
     selector('#coluna-frente').append(pdvsclone);
-  
-  else if (pdv.descripion === 'Area Nova') {
-    areanova.appendChild(pdvsclone); // <-- ADICIONE ESTE BLOCO
-}
-
-
-
-
-    
-  } else {
+} else if (pdv.descripion === 'Area Nova') {
+    selector('#coluna-area-nova').append(pdvsclone);
+} else {
     selector('#coluna-outros').append(pdvsclone);
-  }
+}
   
 
   pdvsclone.querySelector('.link a').href = pdv.link;
