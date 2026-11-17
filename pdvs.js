@@ -269,7 +269,7 @@ let pdvsJson = [
         link: 'http://192.168.60.34:9898/normal.html'
     },
     {
-        name: 'OFF - ATUALIZAR - A LA CARTE',
+        name: 'CX 02 - PDV 409 - A LA CARTE',
         descripion:'A La Carte',
         img: 'imagens/spazio.jpg',
         link: 'http://192.168.60.60:9898/normal.html'
