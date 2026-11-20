@@ -197,13 +197,13 @@ let pdvsJson = [
     //--------------------------ELETRO--------------------------------
     
     {
-        name: 'CX 02 - PDV 419',
+        name: 'CX 01 - PDV 419',
         descripion:'ELETRO',
         img: 'imagens/ELETRO_MATEUS.png',
         link: 'http://192.168.60.78:9898/normal.html'
     },
     {
-        name: 'CX 03 - PDV 396',
+        name: 'CX 02 - PDV 396',
         descripion:'ELETRO',
         img: 'imagens/ELETRO_MATEUS.png',
         link: 'http://192.168.60.69:9898/normal.html'
@@ -245,7 +245,7 @@ let pdvsJson = [
         name: 'CX 06 - PDV 425',
         descripion:'Rotisseria',
         img: 'imagens/spazio.jpg',
-        link: 'http://192.168.60.222:9898/normal.html'
+        link: 'http://192.168.60.127:9898/normal.html'
     },
     {
         name: 'CX 07 - PDV 408',
